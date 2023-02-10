@@ -1,0 +1,21 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@600;800&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Generate a <br><span>random password</span></h1>
+        <p>Never use an insecure password again.</p>
+        <br>
+        <button onclick="generatePassword()">Generate Password</button>
+        <button onclick="reset()">Reset</button>
+        <hr>
+        <input type="text" id="passwordOne" class="passwordFeild" name="passwordOne">
+        <input type="text" id="passwordTwo" class="passwordFeild" name="passwordTwo">
+        <button onclick="copyPasswordOne()" class="copyPasswordBtn">Copy Text</button>
+        <button onclick="copyPasswordTwo()" class="copyPasswordBtn">Copy Text</button>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    padding: 30px;
+    
+    background-color: #1F2937;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+h1 {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 span {
+    color: #4ADF86;
+}
+p {
+    color: #D5D4D8;
+    font-family: inter;
+}
+button {
+    background-color: #10B981;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-family: inter;
+    padding: 10px 10px;
+    margin-right: 1px;
+}
+.copyPasswordBtn {
+    margin-right: 100px;
+    margin-top: 13px!important;
+}
+hr {
+    border: 1px solid #2F3E53;
+    margin: 35px 0px;
+}
+.passwordFeild {
+    background-color: #273549;
+    border: none;
+    height: 30px;
+    border-radius: 7px;
+    text-align: center;
+    color: #55F991;
+}
